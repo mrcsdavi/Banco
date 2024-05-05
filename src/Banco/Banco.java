@@ -4,10 +4,10 @@ import java.util.Random;
 public class Banco {
         Random random = new Random();
 
-        public long numConta;
+        public long numConta; // numero da conta
         protected String tipo; //o (tipo) so aceita dois valores = 'cc' - conta corrente ou 'cp' - conta poupanca
-        private String dono;
-        private double saldo;
+        private String dono; // nome do dono da conta
+        private double saldo; // saldo da conta
         private boolean status;  // (status)Se a conta estiver aberto - true , se a conta estiver fechada - false
         // Na hora que abrir a conta, deve-se perguntar que tipo de conta ela eh
 
